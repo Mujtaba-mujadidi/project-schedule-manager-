@@ -1,0 +1,38 @@
+.root{
+	-fx-background-color: #f2f2f2;
+}
+.button, .button-create, .button-schedule{
+	-fx-background-color: #3399ff;
+	-fx-background-radius: 30;
+	-fx-text-fill: white;
+	-fx-pref-width:200px;
+}
+.button-schedule{
+	-fx-background-color: #ff5b4d;
+}
+
+.button:hover, .button-create:hover {
+	-fx-background-color: #0e5faf;
+}
+
+.button-schedule:hover {
+	-fx-background-color: #cf4f44;
+}
+
+.button-create:pressed {
+	-fx-background-color: #00ff00;
+}
+
+.label{
+	-fx-text-fill: black;
+}
+
+.label-title{
+	-fx-text-fill: #3399ff;
+	-fx-font-family: Tahoma;
+	-fx-font-size: 25px;
+	-fx-font-style: normal;
+	-fx-font-variant: normal;
+	-fx-font-weight: 100;
+	-fx-line-height: 27.5px;
+}
